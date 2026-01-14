@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run tests
+      - name: Run tests1
         run: |
           pip install pytest
           pytest --version
